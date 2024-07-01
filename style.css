@@ -1,0 +1,333 @@
+body {
+    background-color: #55cc85;
+}
+.navbar-custom {
+    background-color: #55cc85;
+}
+.navbar-custom .container {
+    padding: 10px;
+}
+.container-p {
+    height: 800px;
+    background-color: #55cc85;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p, .ima-p {
+    flex: 1;
+    padding: 10px;
+}
+.ima-p img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+img .navbar-custom {
+    border-radius: 50;
+}
+.checkf{
+    margin: 1.5rem; 
+}
+.checkv{
+    margin: 1.5rem; 
+
+}
+.card{
+    text-align: center;
+    width: 210px;
+    height: 200px;
+    margin: 35px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor_cards {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #005521;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    border: 3px solid black;
+}
+.card p {
+    font-size: 15px;
+    font-weight: bold;
+}
+.card div {
+    font-size: 21px;
+}
+.noss {
+    background-color: #005521;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    height: 600px;
+}
+
+.nos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.mision, .vision {
+    width: 400px;
+    padding: 20px;
+    margin-top: 120px;
+    background-color: #55cc85;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.6;
+}
+#nuestra-empresa {
+    background-image:url(img/campo.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+#nuestra-empresa .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+}
+
+#nuestra-empresa h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#nuestra-empresa p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+}
+.pedido{
+    background-image: url(img/banerrf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 5px solid #005521;
+}
+
+.pedido-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.pedido-section p {
+    font-size: 1.5em;
+}
+.cont-text{
+    text-align: center;
+    background-color: #005522;
+    padding: 35px;
+    height: 200px;
+    color: #55cc85;
+}
+p{
+    font-size: 22px;
+}
+.box-box{
+    background-image: url(img/fondoc.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+.contact-box {
+    background-color: #005522;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: solid 5px rgb(0, 0, 0);
+}
+
+.contact-box h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #55cc85;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #55cc85;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #005522;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+
+.contact-form button {
+    background-color: #55cc85;
+    color: #005522;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #004411;
+}
+
+@media (max-width: 950px) {
+    .card{
+        text-align: center;
+        width: 210px;
+        height: 200px;
+        margin: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-p {
+        flex-direction: column;
+        height: auto;
+        font-size: medium;
+    }
+    .p, .ima-p {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+    .ima-p img {
+        max-width: 100%;
+        height: auto;
+    }
+    #nuestra-empresa {
+        background-image:url(img/campo.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        padding: 50px 0;
+        text-align: center;
+    }
+    .mision, .vision {
+        width: 100%;
+        margin-top: 20px; 
+    }
+    #nuestra-empresa .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 20px;
+    }
+    
+    #nuestra-empresa h2 {
+        font-size: 2rem;
+        color: #333;
+    }
+    
+    #nuestra-empresa p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #666;
+    }
+}
+@media (max-width: 768px) {
+    .card{
+        text-align: center;
+        width: 210px;
+        height: 200px;
+        margin: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-p {
+        flex-direction: column;
+        height: auto;
+        font-size: medium;
+    }
+    .p, .ima-p {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+    .ima-p img {
+        max-width: 100%;
+        height: auto;
+    }
+    #nuestra-empresa {
+        background-image:url(img/campo.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        padding: 50px 0;
+        text-align: center;
+    }
+    .mision, .vision {
+        width: 100%;
+        margin-top: 20px; 
+    }
+    #nuestra-empresa .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 20px;
+    }
+    
+    #nuestra-empresa h2 {
+        font-size: 2rem;
+        color: #333;
+    }
+    
+    #nuestra-empresa p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #666;
+    }
+}
